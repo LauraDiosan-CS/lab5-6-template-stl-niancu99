@@ -1,0 +1,4 @@
+pufuleti 2 10
+avocado 7 25
+apa 1 5
+spirt 50 500
