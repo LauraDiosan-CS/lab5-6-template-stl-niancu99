@@ -13,7 +13,6 @@ public:
 	Magazin();
 	Magazin(const char*, int, int);
 	Magazin(const Magazin&);
-	Magazin(string);//constructor de conversie
 	Magazin& operator=(const Magazin&);
 	char* getNume();
 	int getPret();
@@ -21,9 +20,8 @@ public:
 	void setNume(const char*);
 	void setExemplare(int);
 	void setPret(int);
-	bool operator==(const Magazin&);
-	bool operator<(const Magazin&);
+	bool operator==(const Magazin&) const;
+	bool operator<(const Magazin&) const;
 	~Magazin();
 	friend ostream& operator<<(ostream& os, Magazin s);
-	friend istream& operator>>(istream&, Magazin&);
 };

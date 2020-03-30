@@ -6,7 +6,7 @@ using namespace std;
 Magazin::Magazin() {
 	nume = NULL;
 	pret = 0;
-	exemplare = NULL;
+	exemplare = 0;
 
 }
 
@@ -72,11 +72,11 @@ Magazin& Magazin::operator=(const Magazin& m) {
 	return *this;
 }
 
-bool Magazin::operator==(const Magazin& m) {
-	return (strcmp(nume, m.nume) == 0) and (pret == m.pret) and (exemplare, m.exemplare == 0);
+bool Magazin::operator==(const Magazin& m) const{
+	return (strcmp(nume, m.nume) == 0);
 }
 
-bool Magazin::operator<(const Magazin& m)
+bool Magazin::operator<(const Magazin& m) const
 {
 	return (strcmp(nume, m.nume) < 0);
 

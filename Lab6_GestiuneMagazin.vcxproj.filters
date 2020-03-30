@@ -24,7 +24,7 @@
     <ClCompile Include="RepositoryFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestRepositoryFile.cpp">
+    <ClCompile Include="Test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -35,13 +35,8 @@
     <ClInclude Include="RepositoryFile.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TestRepositoryFile.h">
+    <ClInclude Include="Test.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="TestMagazin.txt">
-      <Filter>Source Files</Filter>
-    </Text>
   </ItemGroup>
 </Project>
